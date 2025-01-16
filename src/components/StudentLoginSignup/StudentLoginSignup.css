@@ -1,0 +1,68 @@
+/* Container for the Student Login-Signup Page */
+.student-login-signup-container {
+    background-image: url('/assets/student-login-bg.jpg'); /* Background for the student page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Form Wrapper */
+  .form-wrapper {
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .form-wrapper h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .form-wrapper input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Submit Button */
+  .form-wrapper button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-wrapper button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Toggle Button */
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  
+  .toggle-btn:hover {
+    color: #0056b3;
+  }
+  

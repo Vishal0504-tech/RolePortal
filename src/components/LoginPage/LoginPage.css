@@ -1,0 +1,42 @@
+*{
+  background-image: url('../../assets/images/LoginPage.jpg');
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;  
+ }
+
+.login-page {
+    background-color: #0d1d19;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .login-page input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .header{
+    color: white;
+  }
+  .login-page button {
+    
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-page button:hover {
+    background-color: #45a049;
+  }
+  .type{
+    color: white;
+  }

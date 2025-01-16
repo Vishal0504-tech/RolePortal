@@ -1,0 +1,71 @@
+/* Container for the Admin Login-Signup Page */
+.admin-login-signup-container {
+    background-image: url('/assets/admin-login-bg.jpg'); /* Background image for Admin */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Form Wrapper */
+  .form-wrapper {
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    color: white;
+  }
+  
+  .form-wrapper h2 {
+    margin-bottom: 20px;
+    color: white !important;
+  }
+  
+  /* Input Fields */
+  .form-wrapper input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  /* Submit Button */
+  .form-wrapper button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #d9534f; /* Red for Admin */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-wrapper button:hover {
+    background-color: #c9302c; /* Darker red for hover */
+  }
+  
+  /* Toggle Button */
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #d9534f;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  
+  .toggle-btn:hover {
+    color: #c9302c;
+  }
+  
